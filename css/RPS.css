@@ -1,0 +1,93 @@
+/*Elements without id or class*/
+
+a
+{
+  text-decoration: none;
+  margin: 10px 275px 20px 10px;
+  color: black;
+  font-family: Arial Black;
+  font-size: 12px;
+}
+
+a:hover
+{
+  color: rgb(250,0,0)
+}
+
+/*Id styles*/
+#back
+{
+	width: 500px;
+  height: 475px;
+	background-color: rgb(150,150,150);
+	margin: 20px;
+}
+
+#buttons
+{
+	background-color: rgb(100,150,100);
+	margin: 0px 10px 0px 10px;
+}
+
+#choice
+{
+	background-color: rgb(100,100,150);
+	margin: 0px 10px 0px 10px;
+}
+
+#player
+{
+	padding-left: 116px;
+}
+
+#reload
+{
+  background-color: rgb(250,0,0);
+  font-family: Arial Black;
+}
+
+#reload:hover
+{
+  background-color: rgb(175,100,100);
+}
+
+#result
+{
+	text-align: center;
+	padding: 0px 30px 20px 30px;
+	font-family: Arial Black, sans-serif;
+}
+
+#score
+{
+  text-align: center;
+  color: rgb(0,100,0);
+  font-family: Arial Black;
+  font-size: 14px;
+}
+
+#title
+{
+	color: brown;
+	background-color: black;
+}
+
+/*Class styles*/
+
+.btn
+{
+	padding: 10px 40px 10px 40px;
+}
+
+.chc
+{
+	width: 64px;
+	height: 64px;
+	padding: 10px 40px 10px 40px;
+}
+
+.lbl
+{
+	text-align: center;
+	font-family: Arial Black, sans-serif;
+}

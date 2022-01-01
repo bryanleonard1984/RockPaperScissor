@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<title>Rock, Paper, Scissors</title>
+	<meta charset="utf-8" />
+  <link href="./css/RPS.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+	<div id="back">
+		<div id="ttl">
+			<h1 id="title" class="lbl">Rock, Paper, Scissors</h1>
+		</div>
+		<div id="prompt">
+			<p id="prpt" class="lbl">Select One: </p>
+		</div>
+    <div id="score">
+      Score: 0 / 0
+    </div>
+		<br />
+		<div id="buttons">
+			<input class="btn" type="image" alt="Rock" src="./images/rock.jpg" onclick="RockSelect();" />
+			<input class="btn" type="image" alt="Paper" src="./images/paper.jpg" onclick="PapSelect();" />
+			<input class="btn" type="image" alt="Scissors" src="./images/scissors.jpg" onclick="SciSelect();" />
+		</div>
+		<br />
+		<div id="choice">
+			<image id="player" class="chc" alt="" src="" />
+			<image id="comput" class="chc" alt="" src="" />
+		</div>
+		<br />
+		<p id="result">You have not chosen.</p>
+    <a href="index.html">Do you want to leave?</a>
+    <input id="reload" type="button" value="Reset" onclick="window.location.href=window.location.href" />
+	</div>
+	<script src="./js/RPS.js"></script>
+</body>
+</html>
